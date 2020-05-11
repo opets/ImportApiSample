@@ -1,0 +1,108 @@
+2019-06-14 18:53:39.685 +03:00 [Debug] Hosting starting
+2019-06-14 18:53:39.881 +03:00 [Information] User profile is available. Using '"C:\Users\alex\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-06-14 18:53:39.887 +03:00 [Debug] Reading data from file '"C:\Users\alex\AppData\Local\ASP.NET\DataProtection-Keys\key-3271d4b6-234d-453f-893b-3ace39509c77.xml"'.
+2019-06-14 18:53:39.904 +03:00 [Debug] Reading data from file '"C:\Users\alex\AppData\Local\ASP.NET\DataProtection-Keys\key-eef65200-fffc-4af4-8094-a8f2da93ab1a.xml"'.
+2019-06-14 18:53:39.915 +03:00 [Debug] Found key {3271d4b6-234d-453f-893b-3ace39509c77}.
+2019-06-14 18:53:39.928 +03:00 [Debug] Found key {eef65200-fffc-4af4-8094-a8f2da93ab1a}.
+2019-06-14 18:53:39.937 +03:00 [Debug] Considering key {eef65200-fffc-4af4-8094-a8f2da93ab1a} with expiration date 2019-09-12 15:33:15Z as default key.
+2019-06-14 18:53:39.986 +03:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2019-06-14 18:53:39.988 +03:00 [Debug] Decrypting secret element using Windows DPAPI.
+2019-06-14 18:53:39.992 +03:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2019-06-14 18:53:39.997 +03:00 [Debug] Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+2019-06-14 18:53:40.005 +03:00 [Debug] Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+2019-06-14 18:53:40.018 +03:00 [Debug] Using key {eef65200-fffc-4af4-8094-a8f2da93ab1a} as the default key.
+2019-06-14 18:53:40.024 +03:00 [Debug] Key ring with default key {eef65200-fffc-4af4-8094-a8f2da93ab1a} was loaded during application startup.
+2019-06-14 18:53:40.073 +03:00 [Debug] Compatibility switch "AllowInputFormatterExceptionMessages" in type "MvcJsonOptions" is using compatibility value True for version Version_2_1
+2019-06-14 18:53:40.099 +03:00 [Debug] Compatibility switch "AllowCombiningAuthorizeFilters" in type "MvcOptions" is using compatibility value True for version Version_2_1
+2019-06-14 18:53:40.102 +03:00 [Debug] Compatibility switch "AllowBindingHeaderValuesToNonStringModelTypes" in type "MvcOptions" is using compatibility value True for version Version_2_1
+2019-06-14 18:53:40.104 +03:00 [Debug] Compatibility switch "AllowValidatingTopLevelNodes" in type "MvcOptions" is using compatibility value True for version Version_2_1
+2019-06-14 18:53:40.106 +03:00 [Debug] Compatibility switch "InputFormatterExceptionPolicy" in type "MvcOptions" is using compatibility value MalformedInputExceptions for version Version_2_1
+2019-06-14 18:53:40.108 +03:00 [Debug] Compatibility switch "SuppressBindingUndefinedValueToEnumType" in type "MvcOptions" is using compatibility value True for version Version_2_1
+2019-06-14 18:53:40.110 +03:00 [Debug] Compatibility switch "EnableEndpointRouting" in type "MvcOptions" is using default value False
+2019-06-14 18:53:40.113 +03:00 [Debug] Compatibility switch "MaxValidationDepth" in type "MvcOptions" is using default value "(null)"
+2019-06-14 18:53:40.115 +03:00 [Debug] Compatibility switch "AllowShortCircuitingValidationWhenNoValidatorsArePresent" in type "MvcOptions" is using default value False
+2019-06-14 18:53:40.151 +03:00 [Debug] Compatibility switch "SuppressMapClientErrors" in type "ApiBehaviorOptions" is using compatibility value True for version Version_2_1
+2019-06-14 18:53:40.153 +03:00 [Debug] Compatibility switch "SuppressUseValidationProblemDetailsForInvalidModelStateResponses" in type "ApiBehaviorOptions" is using compatibility value True for version Version_2_1
+2019-06-14 18:53:40.156 +03:00 [Debug] Compatibility switch "AllowInferringBindingSourceForCollectionTypesAsFromQuery" in type "ApiBehaviorOptions" is using compatibility value True for version Version_2_1
+2019-06-14 18:53:40.163 +03:00 [Debug] Compatibility switch "AllowAreas" in type "RazorPagesOptions" is using compatibility value True for version Version_2_1
+2019-06-14 18:53:40.166 +03:00 [Debug] Compatibility switch "AllowMappingHeadRequestsToGetHandler" in type "RazorPagesOptions" is using compatibility value True for version Version_2_1
+2019-06-14 18:53:40.168 +03:00 [Debug] Compatibility switch "AllowDefaultHandlingForOptionsRequests" in type "RazorPagesOptions" is using default value False
+2019-06-14 18:53:40.182 +03:00 [Debug] Compatibility switch "AllowRecompilingViewsOnFileChange" in type "RazorViewEngineOptions" is using explicitly configured value True
+2019-06-14 18:53:40.221 +03:00 [Debug] Compatibility switch "SuppressTempDataAttributePrefix" in type "MvcViewOptions" is using compatibility value True for version Version_2_1
+2019-06-14 18:53:40.224 +03:00 [Debug] Compatibility switch "AllowRenderingMaxLengthAttribute" in type "MvcViewOptions" is using default value False
+2019-06-14 18:53:40.296 +03:00 [Debug] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+2019-06-14 18:53:40.362 +03:00 [Debug] Failed to locate the development https certificate at 'null'.
+2019-06-14 18:53:40.438 +03:00 [Debug] Hosting started
+2019-06-14 18:53:40.445 +03:00 [Debug] Loaded hosting startup assembly "ImportProcessor.WebApi"
+2019-06-14 18:53:40.447 +03:00 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.Server.IISIntegration"
+2019-06-14 18:53:40.483 +03:00 [Debug] Connection id ""0HLNGS1S878OG"" started.
+2019-06-14 18:53:40.703 +03:00 [Debug] Connection id ""0HLNGS1S878OH"" started.
+2019-06-14 18:53:40.824 +03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:54321/  0
+2019-06-14 18:53:40.824 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:54321/  
+2019-06-14 18:53:40.833 +03:00 [Debug] Wildcard detected, all requests with hosts will be allowed.
+2019-06-14 18:53:40.835 +03:00 [Debug] Wildcard detected, all requests with hosts will be allowed.
+2019-06-14 18:53:40.987 +03:00 [Warning] Failed to determine the https port for redirect.
+2019-06-14 18:53:41.155 +03:00 [Debug] Connection id ""0HLNGS1S878OH"" completed keep alive response.
+2019-06-14 18:53:41.178 +03:00 [Information] Request finished in 371.3023ms 200 
+2019-06-14 18:53:41.181 +03:00 [Debug] The request path "/" does not match a supported file type
+2019-06-14 18:53:41.539 +03:00 [Debug] Request successfully matched the route with name '"default"' and template '"{controller=JavaScript}/{action=Basics}"'
+2019-06-14 18:53:41.552 +03:00 [Debug] No actions matched the current request. Route values: ["controller=JavaScript", "action=Basics"]
+2019-06-14 18:53:41.565 +03:00 [Debug] No actions matched the current request. Route values: ["controller=JavaScript", "action=Basics"]
+2019-06-14 18:53:41.569 +03:00 [Debug] Request did not match any routes
+2019-06-14 18:53:41.577 +03:00 [Debug] Request did not match any routes
+2019-06-14 18:53:41.603 +03:00 [Debug] Connection id ""0HLNGS1S878OG"" completed keep alive response.
+2019-06-14 18:53:41.685 +03:00 [Information] Request finished in 845.7524ms 404 
+2019-06-14 18:54:38.531 +03:00 [Debug] Hosting starting
+2019-06-14 18:54:38.788 +03:00 [Information] User profile is available. Using '"C:\Users\alex\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-06-14 18:54:38.821 +03:00 [Debug] Reading data from file '"C:\Users\alex\AppData\Local\ASP.NET\DataProtection-Keys\key-3271d4b6-234d-453f-893b-3ace39509c77.xml"'.
+2019-06-14 18:54:38.867 +03:00 [Debug] Reading data from file '"C:\Users\alex\AppData\Local\ASP.NET\DataProtection-Keys\key-eef65200-fffc-4af4-8094-a8f2da93ab1a.xml"'.
+2019-06-14 18:54:38.881 +03:00 [Debug] Found key {3271d4b6-234d-453f-893b-3ace39509c77}.
+2019-06-14 18:54:38.894 +03:00 [Debug] Found key {eef65200-fffc-4af4-8094-a8f2da93ab1a}.
+2019-06-14 18:54:38.914 +03:00 [Debug] Considering key {eef65200-fffc-4af4-8094-a8f2da93ab1a} with expiration date 2019-09-12 15:33:15Z as default key.
+2019-06-14 18:54:38.999 +03:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2019-06-14 18:54:39.013 +03:00 [Debug] Decrypting secret element using Windows DPAPI.
+2019-06-14 18:54:39.033 +03:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2019-06-14 18:54:39.041 +03:00 [Debug] Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+2019-06-14 18:54:39.053 +03:00 [Debug] Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+2019-06-14 18:54:39.065 +03:00 [Debug] Using key {eef65200-fffc-4af4-8094-a8f2da93ab1a} as the default key.
+2019-06-14 18:54:39.069 +03:00 [Debug] Key ring with default key {eef65200-fffc-4af4-8094-a8f2da93ab1a} was loaded during application startup.
+2019-06-14 18:54:39.136 +03:00 [Debug] Compatibility switch "AllowInputFormatterExceptionMessages" in type "MvcJsonOptions" is using compatibility value True for version Version_2_1
+2019-06-14 18:54:39.179 +03:00 [Debug] Compatibility switch "AllowCombiningAuthorizeFilters" in type "MvcOptions" is using compatibility value True for version Version_2_1
+2019-06-14 18:54:39.183 +03:00 [Debug] Compatibility switch "AllowBindingHeaderValuesToNonStringModelTypes" in type "MvcOptions" is using compatibility value True for version Version_2_1
+2019-06-14 18:54:39.185 +03:00 [Debug] Compatibility switch "AllowValidatingTopLevelNodes" in type "MvcOptions" is using compatibility value True for version Version_2_1
+2019-06-14 18:54:39.189 +03:00 [Debug] Compatibility switch "InputFormatterExceptionPolicy" in type "MvcOptions" is using compatibility value MalformedInputExceptions for version Version_2_1
+2019-06-14 18:54:39.196 +03:00 [Debug] Compatibility switch "SuppressBindingUndefinedValueToEnumType" in type "MvcOptions" is using compatibility value True for version Version_2_1
+2019-06-14 18:54:39.202 +03:00 [Debug] Compatibility switch "EnableEndpointRouting" in type "MvcOptions" is using default value False
+2019-06-14 18:54:39.207 +03:00 [Debug] Compatibility switch "MaxValidationDepth" in type "MvcOptions" is using default value "(null)"
+2019-06-14 18:54:39.215 +03:00 [Debug] Compatibility switch "AllowShortCircuitingValidationWhenNoValidatorsArePresent" in type "MvcOptions" is using default value False
+2019-06-14 18:54:39.303 +03:00 [Debug] Compatibility switch "SuppressMapClientErrors" in type "ApiBehaviorOptions" is using compatibility value True for version Version_2_1
+2019-06-14 18:54:39.308 +03:00 [Debug] Compatibility switch "SuppressUseValidationProblemDetailsForInvalidModelStateResponses" in type "ApiBehaviorOptions" is using compatibility value True for version Version_2_1
+2019-06-14 18:54:39.316 +03:00 [Debug] Compatibility switch "AllowInferringBindingSourceForCollectionTypesAsFromQuery" in type "ApiBehaviorOptions" is using compatibility value True for version Version_2_1
+2019-06-14 18:54:39.324 +03:00 [Debug] Compatibility switch "AllowAreas" in type "RazorPagesOptions" is using compatibility value True for version Version_2_1
+2019-06-14 18:54:39.330 +03:00 [Debug] Compatibility switch "AllowMappingHeadRequestsToGetHandler" in type "RazorPagesOptions" is using compatibility value True for version Version_2_1
+2019-06-14 18:54:39.334 +03:00 [Debug] Compatibility switch "AllowDefaultHandlingForOptionsRequests" in type "RazorPagesOptions" is using default value False
+2019-06-14 18:54:39.353 +03:00 [Debug] Compatibility switch "AllowRecompilingViewsOnFileChange" in type "RazorViewEngineOptions" is using explicitly configured value True
+2019-06-14 18:54:39.405 +03:00 [Debug] Compatibility switch "SuppressTempDataAttributePrefix" in type "MvcViewOptions" is using compatibility value True for version Version_2_1
+2019-06-14 18:54:39.416 +03:00 [Debug] Compatibility switch "AllowRenderingMaxLengthAttribute" in type "MvcViewOptions" is using default value False
+2019-06-14 18:54:39.594 +03:00 [Debug] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+2019-06-14 18:54:39.682 +03:00 [Debug] Failed to locate the development https certificate at 'null'.
+2019-06-14 18:54:39.784 +03:00 [Debug] Hosting started
+2019-06-14 18:54:39.796 +03:00 [Debug] Loaded hosting startup assembly "ImportProcessor.WebApi"
+2019-06-14 18:54:39.807 +03:00 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.Server.IISIntegration"
+2019-06-14 18:54:39.859 +03:00 [Debug] Connection id ""0HLNGS2DUEMKR"" started.
+2019-06-14 18:54:40.030 +03:00 [Debug] Connection id ""0HLNGS2DUEMKS"" started.
+2019-06-14 18:54:40.069 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:54321/  
+2019-06-14 18:54:40.069 +03:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:54321/  0
+2019-06-14 18:54:40.081 +03:00 [Debug] Wildcard detected, all requests with hosts will be allowed.
+2019-06-14 18:54:40.082 +03:00 [Debug] Wildcard detected, all requests with hosts will be allowed.
+2019-06-14 18:54:40.136 +03:00 [Warning] Failed to determine the https port for redirect.
+2019-06-14 18:54:40.211 +03:00 [Debug] Connection id ""0HLNGS2DUEMKS"" completed keep alive response.
+2019-06-14 18:54:40.222 +03:00 [Debug] The request path "/" does not match a supported file type
+2019-06-14 18:54:40.223 +03:00 [Information] Request finished in 155.6208ms 200 
+2019-06-14 18:54:40.656 +03:00 [Debug] Request successfully matched the route with name '"default"' and template '"{controller=JavaScript}/{action=Basics}"'
+2019-06-14 18:54:40.666 +03:00 [Debug] No actions matched the current request. Route values: ["controller=JavaScript", "action=Basics"]
+2019-06-14 18:54:40.668 +03:00 [Debug] No actions matched the current request. Route values: ["controller=JavaScript", "action=Basics"]
+2019-06-14 18:54:40.672 +03:00 [Debug] Request did not match any routes
+2019-06-14 18:54:40.677 +03:00 [Debug] Request did not match any routes
+2019-06-14 18:54:40.685 +03:00 [Debug] Connection id ""0HLNGS2DUEMKR"" completed keep alive response.
+2019-06-14 18:54:40.711 +03:00 [Information] Request finished in 643.2353ms 404 

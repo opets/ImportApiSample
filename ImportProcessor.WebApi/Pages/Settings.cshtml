@@ -1,0 +1,162 @@
+@page
+@model ImportProcessor.WebApi.Pages.SettingsModel
+@{
+    ViewData["Title"] = "Settings";
+}
+
+<h2></h2>
+
+<form method="post">
+
+    <div class="form-group">
+        <div class="row">
+            <div class="col-md-2">
+                <label asp-for="LatestVersion" class=".label">Latest Version</label>
+            </div>
+            <div class="col-lg-8">
+                <input asp-for="LatestVersion" class="form-control" />
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="row">
+            <div class="col-md-2">
+                <label asp-for="LatestVersionSource" class=".label">Latest Version Source</label>
+            </div>
+            <div class="col-lg-8">
+                <input asp-for="LatestVersionSource" class="form-control" />
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="row">
+            <div class="col-md-2">
+                <label asp-for="PaymentUrl" class=".label">Payment Url</label>
+            </div>
+            <div class="col-lg-8">
+                <input asp-for="PaymentUrl" class="form-control" />
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="row">
+            <div class="col-md-2">
+                <label asp-for="PrinterPath" class=".label">Printer Path</label>
+            </div>
+            <div class="col-lg-8">
+                <input asp-for="PrinterPath" class="form-control" />
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="row">
+            <div class="col-md-2">
+                <label asp-for="SalesforceClientId" class=".label">Salesforce Client Id</label>
+            </div>
+            <div class="col-lg-8">
+                <input asp-for="SalesforceClientId" class="form-control" />
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="row">
+            <div class="col-md-2">
+                <label asp-for="SalesforceClientSecret" class=".label">Salesforce Client Secret</label>
+            </div>
+            <div class="col-lg-8">
+                <input asp-for="SalesforceClientSecret" class="form-control" />
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="row">
+            <div class="col-md-2">
+                <label asp-for="SalesforceRedirectUrl" class=".label">Salesforce Redirect Url</label>
+            </div>
+            <div class="col-lg-8">
+                <input asp-for="SalesforceRedirectUrl" class="form-control" />
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="row">
+            <div class="col-md-2">
+                <label asp-for="SalesforceUrl" class=".label">Salesforce Url</label>
+            </div>
+            <div class="col-lg-8">
+                <input asp-for="SalesforceUrl" class="form-control" />
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="row">
+            <div class="col-md-2">
+                <label asp-for="SmartsheetToken" class=".label">Smartsheet Token</label>
+            </div>
+            <div class="col-lg-8">
+                <input asp-for="SmartsheetToken" class="form-control" />
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="row">
+            <div class="col-md-2">
+                <label asp-for="SmartsheetUrl" class=".label">Smartsheet Url</label>
+            </div>
+            <div class="col-lg-8">
+                <input asp-for="SmartsheetUrl" class="form-control" />
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="row">
+            <div class="col-md-2">
+                <label asp-for="EmailTemplate" class=".label">Email Template</label>
+            </div>
+            <div class="col-lg-8">
+                <input asp-for="EmailTemplate" class="form-control" />
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="row">
+            <div class="col-md-2">
+                <label asp-for="SalesforceRecordTypeId" class=".label">Salesforce Record Type Id</label>
+            </div>
+            <div class="col-lg-8">
+                <input asp-for="SalesforceRecordTypeId" class="form-control" />
+            </div>
+        </div>
+    </div>
+
+    @if( !string.IsNullOrEmpty( Model.ErrorLog ) ) {
+
+        <div class="text-danger">
+            <div class="col-md">
+                <code>@Model.ErrorLog</code>
+            </div>
+        </div>
+    }
+
+
+    <div class="row">
+        <div class="col-md-2">
+            <input type="submit" name="Update" value="Update" class="btn btn-primary">
+        </div>
+        <div class="col-lg-8">
+            <input type="submit" name="setDefault" value="Set Default" class="btn btn-sm btn-info">
+        </div>
+    </div>
+
+</form>
